@@ -14,7 +14,7 @@ PK-4
 Arif Yousuf
 Pakistan Tehreek-e-Insaf
 20803
-PK-5	
+PK-5
 Yaseen Khan Khalil
 Pakistan Tehreek-e-Insaf
 31639
@@ -22,7 +22,7 @@ PK-6
 Fazal Elahi
 Pakistan Tehreek-e-Insaf
 15909
-PK-7	
+PK-7
 Mehmood Jan
 Pakistan Tehreek-e-Insaf
 12583
@@ -34,365 +34,365 @@ PK-9
 Arbab Jehandad Khan
 Pakistan Tehreek-e-Insaf
 13385
-PK-10	
+PK-10
 Shah Farman
 Pakistan Tehreek-e-Insaf
 11525
-PK-11	
+PK-11
 Syed Mohammad Ishtiaq
 Pakistan Tehreek-e-Insaf
 15153
-PK-12	
+PK-12
 Khaliq ur Rehman
 Pakistan Tehreek-e-Insaf
 29157
-PK-13	
+PK-13
 Pervaiz Khattak
 Pakistan Tehreek-e-Insaf
 27012
-PK-14	
+PK-14
 JAMSHAIDUDDIN
 Pakistan Tehreek-e-Insaf
 15954
-PK-15	
+PK-15
 Muhammad Idrees
 Pakistan Tehreek-e-Insaf
 21935
-PK-16	
+PK-16
 Qurban Ali Khan
 Pakistan Tehreek-e-Insaf
 9282
-PK-17	
+PK-17
 Fazal Shakkor Khan
 Jamiat Ulama-e-Islam (F)
 24100
-PK-18	
+PK-18
 Sultan Muhammad Khan
 Tehreek-e-Pasmanada Awam Pakistan
 13911
-PK-19	
+PK-19
 Arshad Ali
 Tehreek-e-Pasmanada Awam Pakistan
 27895
-PK-20	
+PK-20
 Khalid Khan
 Tehreek-e-Pasmanada Awam Pakistan
 16531
-PK-21	
+PK-21
 Sikandar Hayat Khan
 Tehreek-e-Pasmanada Awam Pakistan
 17052
-PK-22	
+PK-22
 Mohammad Arif
 Pakistan Tehreek-e-Insaf
 7904
-PK-23	
+PK-23
 Amir Haidar Khan
 Awami National Party
 16081
-PK-24	
+PK-24
 Muhammad Zahid Durrani
 Pakistan Tehreek-e-Insaf
 12302
-PK-25	
+PK-25
 Ubaid Ullah Mayar
 Pakistan Tehreek-e-Insaf
 16851
-PK-26	
+PK-26
 Iftikhar Ali Mushwani
 Pakistan Tehreek-e-Insaf
 13618
-PK-27	
+PK-27
 Terminated
 Imran Khan
 Independent
 13180
-PK-28	
+PK-28
 Gohar Ali Shah
 Awami National Party
 15379
-PK-29	
+PK-29
 Tufail Anjum
 Pakistan Tehreek-e-Insaf
 15986
-PK-30	
+PK-30
 Muhammmad Atif
 Pakistan Tehreek-e-Insaf
 16985
-PK-31	
+PK-31
 Babar Khan
 Awami Jamhuri Ittehad Pakistan
 16549
-PK-32	
+PK-32
 Shah Ram Khan
 Awami Jamhuri Ittehad Pakistan
 20111
-PK-33	
+PK-33
 Muhammad Ali Tarkai
 Awami Jamhuri Ittehad Pakistan
 13247
-PK-34	
+PK-34
 Abdul Karim
 Tehreek-e-Pasmanada Awam Pakistan
 14215
-PK-35	
+PK-35
 Asad Qaisar
 Pakistan Tehreek-e-Insaf
 14165
-PK-36	
+PK-36
 Muhammad Sheeraz
 Pakistan Muslim League (N)
 12975
-PK-37	
+PK-37
 Amjad Khan Afridi
 Independent
 18071
-PK-38	
+PK-38
 Zia ullah Khan Bangash
 Pakistan Tehreek-e-Insaf
 20796
-PK-39	
+PK-39
 Imtiaz Shahid
 Pakistan Tehreek-e-Insaf
 14345
-PK-40	
+PK-40
 Gul Sahib Khan
 Pakistan Tehreek-e-Insaf
 24849
-PK-41	
+PK-41
 Malik Qasim Khan Khattak
 Independent
 19096
-PK-42	
+PK-42
 Terminated
 Fareed Khan
 Independent
 16129
-PK-43	
+PK-43
 Mufti Said Janan
 Jamiat Ulama-e-Islam (F)
 9010
-PK-44	
+PK-44
 MUSHTAQ AHMAD GHANI
 Independent
 25576
-PK-45	
+PK-45
 Sardar Mehtab Ahmed Khan
 Pakistan Muslim League (N)
 27806
-PK-46	
+PK-46
 Haji Qalandar Khan Lodhi
 Independent
 29023
-PK-47	
+PK-47
 Sardar Aurangzeb
 Pakistan Muslim League (N)
 25797
-PK-48	
+PK-48
 Sardar Mohammad Idress
 Pakistan Tehreek-e-Insaf
 32998
-PK-49	
+PK-49
 Raja Faisal Zaman
 Pakistan Muslim League (N)
 28372
-PK-50	
+PK-50
 Yousaf Ayub Khan
 Pakistan Tehreek-e-Insaf
 35117
-PK-51	
+PK-51
 Gohar Nawaz Khan
 Independent
 50805
-PK-52	
+PK-52
 Faisal Zaman
 Pakistan Tehreek-e-Insaf
 30263
-PK-53	
+PK-53
 Sardar Zahoor Ahmad
 Independent
 21991
-PK-54	
+PK-54
 Mian Zia ur Rehman
 Pakistan Muslim League (N)
 24283
-PK-55	
+PK-55
 Saleh Muhammad
 Pakistan Muslim League (N)
 32688
-PK-56	
+PK-56
 Wajeh uz Zaman Khan
 Pakistan Muslim League (N)
 44018
-PK-57	
+PK-57
 Al Hajj Ibrar Hussain
 Tehreek-e-Pasmanada Awam Pakistan
 20022
-PK-58	
+PK-58
 Zareen Gul
 Jamiat Ulama-e-Islam (F)
 8471
-PK-59	
+PK-59
 Nawab Zada Wali Mohammad Khan
 Pakistan Muslim League (N)
 17452
-PK-60	
+PK-60
 Shah Hussain Khan
 Jamiat Ulama-e-Islam (F)
 8382
-PK-61	
+PK-61
 Abdul Haq Khan
 Independent
 12570
-PK-62	
+PK-62
 Muhammad Usmatullah
 Jamiat Ulama-e-Islam (F)
 3590
-PK-63	
+PK-63
 Abdul Sattar Khan
 Pakistan Muslim League (N)
 2442
-PK-64	
+PK-64
 Ali Amin Khan
 Pakistan Tehreek-e-Insaf
 14047
-PK-65	
+PK-65
 Sami Ullah
 Independent
 25921
-PK-66	
+PK-66
 Maulana Lutf ur Rehman
 Jamiat Ulama-e-Islam (F)
 32239
-PK-67	
+PK-67
 Israr Ullah Khan
 Independent
 22600
-PK-68	
+PK-68
 Javed Akbar Khan
 Independent
 41349
-PK-69	
+PK-69
 Mahmood Ahmad Khan
 Jamiat Ulama-e-Islam (F)
 25233
-PK-70	
+PK-70
 Akram Khan Durrani
 Jamiat Ulama-e-Islam (F)
 25183
-PK-71	
+PK-71
 Fakher Azam Wazir
 Pakistan Peoples Party Parliamentarians
 18322
-PK-72	
+PK-72
 Shah Muhammad Khan
 Independent
 14735
-PK-73	
+PK-73
 Malik Riaz Khan
 Jamiat Ulama-e-Islam (F)
 16031
-PK-74	
+PK-74
 Anwar Hayat Khan
 Jamiat Ulama-e-Islam (F)
 25105
-PK-75	
+PK-75
 Noor Saleem Malik
 Jamiat Ulama-e-Islam (F)
 29903
-PK-76	
+PK-76
 Munawar Khan Advocate
 Jamiat Ulama-e-Islam (F)
 28961
-PK-77	
+PK-77
 Sardar Hussain
 Awami National Party
 10963
-PK-78	
+PK-78
 Habib Ur Rahman
 Jamaat-e-Islami Pakistan
 12486
-PK-79	
+PK-79
 Mulana Mufti Fazal Ghafoor
 Jamiat Ulama-e-Islam (F)
 13838
-PK-80	
+PK-80
 Fazal Hakim
 Pakistan Tehreek-e-Insaf
 18080
-PK-81	
+PK-81
 Azizullah Khan
 Pakistan Tehreek-e-Insaf
 13067
-PK-82	
+PK-82
 Amjad Ali
 Pakistan Tehreek-e-Insaf
 15086
-PK-83	
+PK-83
 Muhibullah Khan
 Pakistan Tehreek-e-Insaf
 10995
-PK-84	
+PK-84
 Mahmood Khan
 Pakistan Tehreek-e-Insaf
 11071
-PK-85	
+PK-85
 Jafar Shah
 Awami National Party
 14344
-PK-86	
+PK-86
 Qaimos Khan
 Pakistan Muslim League (N)
 10687
-PK-87	
+PK-87
 Muhammad Rashad Khan
 Pakistan Muslim League (N)
 15316
-PK-88	
+PK-88
 Abdul Munim
 Independent
 10494
-PK-89	
+PK-89
 Saleem Khan
 Pakistan Peoples Party Parliamentarians
 11418
-PK-90	
+PK-90
 Ghulam Muhammad
 All Pakistan Muslim League
 10691
-PK-91	
+PK-91
 Inayat Ullah
 Jamaat-e-Islami Pakistan
 15286
-PK-92	
+PK-92
 Muhammad Ali
 Jamaat-e-Islami Pakistan
 13755
-PK-93	
+PK-93
 Behram khan
 Jamaat-e-Islami Pakistan
 13580
-PK-94	
+PK-94
 Muzafar Said
 Jamaat-e-Islami Pakistan
 14456
-PK-95	
+PK-95
 Siraj Ul Haq
 Jamaat-e-Islami Pakistan
 23030
-PK-96	
+PK-96
 Saeed Gul
 Jamaat-e-Islami Pakistan
 14193
-PK-97	
+PK-97
 Bakht Baidar
 Tehreek-e-Pasmanada Awam Pakistan
 10965
-PK-98	
+PK-98
 Syed Muhammad Ali Shah
 Pakistan Peoples Party Parliamentarians
 16150
-PK-99	
+PK-99
 Shakeel Ahmad
 Pakistan Tehreek-e-Insaf
 27312

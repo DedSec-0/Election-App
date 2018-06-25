@@ -1,20 +1,20 @@
-NA-1	
+NA-1
 Imran Khan
 Pakistan Tehreek-e-Insaf
 90500
-NA-2	
+NA-2
 Hamid Ul Haq
 Pakistan Tehreek-e-Insaf
 79125
-NA-3	
+NA-3
 Sajid Nawaz
 Pakistan Tehreek-e-Insaf
 66528
-NA-4	
+NA-4
 GULZAR KHAN
 Pakistan Tehreek-e-Insaf
 55134
-NA-5	
+NA-5
 Pervez Khattak
 Pakistan Tehreek-e-Insaf
 70053
@@ -74,11 +74,11 @@ NA-19
 Raja Aamer Zaman
 Pakistan Tehreek-e-Insaf
 116979
-NA-20	
+NA-20
 Sardar Muhammad Yousaf
 Pakistan Muslim League (N)
 106467
-NA-21	
+NA-21
 Capt R Muhammad Safdar
 Pakistan Muslim League (N)
 91013
@@ -94,15 +94,15 @@ NA-24
 Molana Fazal Ur Rehman
 Jamiat Ulama-e-Islam (F)
 92395
-NA-25	
+NA-25
 Molana Fazal Rehman
 Jamiat Ulama-e-Islam (F)
 77595
-NA-26	
+NA-26
 Akram Khan Durrani
 Jamiat Ulama-e-Islam (F)
 78294
-NA-27	
+NA-27
 MOLANA FAZAL REHMAN
 Jamiat Ulama-e-Islam (F)
 85051
@@ -110,158 +110,158 @@ NA-28
 Sher Akbar Khan
 Jamaat-e-Islami Pakistan
 29170
-NA-29	
+NA-29
 MURAD SAEED
 Pakistan Tehreek-e-Insaf
 88513
-NA-30	
+NA-30
 Salim Rehman
 Pakistan Tehreek-e-Insaf
 49976
-NA-31	
+NA-31
 IBADULLAH
 Pakistan Muslim League (N)
 30916
-NA-32	
+NA-32
 Iftikhar ud Din
 All Pakistan Muslim League
 29772
-NA-33	
+NA-33
 Sahibzada Tariq Ullah
 Jamaat-e-Islami Pakistan
 42582
-NA-34	
+NA-34
 Shahib Zada Muhammad Yaqub
 Jamaat-e-Islami Pakistan
 49475
-NA-35	
+NA-35
 Junaid Akbar
 Pakistan Tehreek-e-Insaf
 51312
-NA-36	
+NA-36
 Bilal Rehman
 Independent
 9005
-NA-37	
+NA-37
 Mr. Sajid Hussain Turi
 Independent
 30524
-NA-38	
+NA-38
 Postponed
 0
-NA-39	
+NA-39
 Syed Ghazi Gulab Jamal
 Independent
 7922
-NA-40	
+NA-40
 Muhammad Nazir Khan
 Independent
 18055
-NA-41	
+NA-41
 Ghalib Khan
 Pakistan Muslim League (N)
 8022
-NA-42	
+NA-42
 Muhammad Jamal ud Din
 Jamiat Ulama-e-Islam (F)
 3468
-NA-43	
+NA-43
 Bismillah Khan
 Independent
 13929
-NA-44	
+NA-44
 Shahab Ud Din Khan
 Pakistan Muslim League (N)
 15114
-NA-45	
+NA-45
 Alhaj Shah Jee Gul Afridi
 Independent
 29697
-NA-46	
+NA-46
 Nasir Khan
 Independent
 4135
-NA-47	
+NA-47
 Qaisar Jamal
 Pakistan Tehreek-e-Insaf
 11328
-NA-48	
+NA-48
 Makhdom Javed Hashmi
 Pakistan Tehreek-e-Insaf
 73878
-NA-49	
+NA-49
 Dr. Tariq Fazal Chudhary
 Pakistan Muslim League (N)
 94106
-NA-50	
+NA-50
 SHAHID KHAQAN ABBASI
 Pakistan Muslim League (N)
 134439
-NA-51	
+NA-51
 RAJA MUHAMMAD JAVED IKHLAS
 Pakistan Muslim League (N)
 121067
-NA-52	
+NA-52
 CH NISAR ALI KHAN
 Pakistan Muslim League (N)
 133143
-NA-53	
+NA-53
 Ghulam Sarwar khan
 Pakistan Tehreek-e-Insaf
 110593
-NA-54	
+NA-54
 MALIK IBRAR AHMED
 Pakistan Muslim League (N)
 76336
-NA-55	
+NA-55
 SHEIKH RASHID AHMED
 Awami Muslim League Pakistan
 88627
-NA-56	
+NA-56
 Imran Khan
 Pakistan Tehreek-e-Insaf
 80577
-NA-57	
+NA-57
 Sheikh Aftab Ahmed
 Pakistan Muslim League (N)
 59920
-NA-58	
+NA-58
 Malik Ihtebar Khan
 Pakistan Muslim League (N)
 85244
-NA-59	
+NA-59
 Muhammad Zain Ellahi
 Independent
 60284
-NA-60	
+NA-60
 Major Rtd Tahir Iqbal
 Pakistan Muslim League (N)
 130821
-NA-61	
+NA-61
 SARDAR MUMTAZ KHAN
 Pakistan Muslim League (N)
 114282
-NA-62	
+NA-62
 Chaudhry Khadim Hussain
 Pakistan Muslim League (N)
 102230
-NA-63	
+NA-63
 MALIK IQBAL MEHDI KHAN
 Pakistan Muslim League (N)
 116013
-NA-64	
+NA-64
 Pir Muhammad Amin ul Hasnat Shah
 Pakistan Muslim League (N)
 151690
-NA-65	
+NA-65
 MOHSIN SHAH NAWAZ RANJHA
 Pakistan Muslim League (N)
 102871
-NA-66	
+NA-66
 Chudhary Hamid Hameed
 Pakistan Muslim League (N)
 133085
-NA-67	
+NA-67
 Dr. Zulfiqar Ali Bhatti
 Pakistan Muslim League (N)
 109132
@@ -938,8 +938,7 @@ NA-236
 Roshan Din Junejo
 Pakistan Peoples Party Parliamentarians
 100906
-NA-237	
-Terminated
+NA-237
 Sadiq Ali Memon
 Pakistan Peoples Party Parliamentarians
 86746

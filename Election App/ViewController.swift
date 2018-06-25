@@ -12,58 +12,47 @@ import FirebaseDatabase
 class ViewController: UIViewController {
 
     var Ref : DatabaseReference?
+    let NA_File = Bundle.main.path(forResource: "National Assembly", ofType: "txt")
+    let NA_Address_File = Bundle.main.path(forResource: "NA - Addresses", ofType: "txt")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
-        let NA_File = "National Assembly.txt"
-        let NA_Address_File = "NA - Addresses.txt"
-        let PB_File = "PB.txt"
-        let PP_File = "PP.txt"
-        let PK_File = "PK.txt"
-        if let dirPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-        {
-            let fileUrl = dirPath.appendingPathComponent(fileName)
-            //            do
-            //            {
-            //                try fileData.write(to: fileUrl, atomically: true, encoding: String.Encoding.utf8)
-            //            }
-            //            catch{
-            //
-            //            }
-            do
-            {
-                let data = try String.init(contentsOf: fileUrl, encoding: .utf8)
-                print("the data is: ", data)
-                
-//                Ref = Database.database().reference()
-//                Ref?.child("National Assembly").observe(.value, with: {(snapshot) in
-//
-//                    if snapshot.childrenCount > 0 {
-//                        S.removeAll()
-//                        for St in snapshot.children.allObjects as! [DataSnapshot] {
-//                            let StObj = St.value as? [String : AnyObject]
-//                            let StName = StObj?["Name"]
-//                            let StRollNo = StObj?["RollNo"]
-//                            let StAge = StObj?["Age"]
-//                            let StPhone = StObj?["Phone"]
-//                            let StAddress = StObj?["Address"]
-//                            let StId = StObj?["Id"]
-//                            let myStObj = StudentsModel(Names: StName as! String, RollNo: StRollNo as! String, Age: StAge as! String, Phone: StPhone as! String, Address: StAddress as! String, Id: StId as! String)
-//
-//                            S.append(myStObj)
-//                        }
-//                        self.myTableView.reloadData()
-//                    }
-//                })
-            }
-            catch{
-                
-            }
+        Ref = Database.database().reference().child("National Assembly")
+        
+        do{
+            let Data1 = try String(contentsOfFile: NA_File!, encoding: String.Encoding.utf8)
+            let Data2 = try String(contentsOfFile: NA_Address_File!, encoding: String.Encoding.utf8)
+            let RawData1 = Data1.components(separatedBy: "\r\n")
+            let RawData2 = Data2.components(separatedBy: "\r\n")
             
+            AddData(Data1: RawData1, Data2: RawData2)
+            
+            print(RawData1)
+        }
+        catch let error as NSError {
+            print(error)
         }
     }
 
+    func AddData(Data1 : [String], Data2 : [String]) {
+        var i : Int = 0
+        var j : Int = 0
+        
+        while i < Data1.count - 1 {
+            let key = Ref?.childByAutoId().key
+            let Data = ["PStation" : Data1[i],
+                        "Candidate" : Data1[i + 1],
+                        "Party Name" : Data1[i + 2],
+                        "Votes" : Data1[i + 3],
+                        "Coordinates" : Data2[j],
+                        "Key" : key]
+            
+            Ref?.child(key!).setValue(Data)
+            i += 4
+            j += 1
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

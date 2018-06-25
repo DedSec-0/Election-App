@@ -12,17 +12,17 @@ import FirebaseDatabase
 class ViewController: UIViewController {
 
     var Ref : DatabaseReference?
-    let NA_File = Bundle.main.path(forResource: "PS", ofType: "txt")
-    let NA_Address_File = Bundle.main.path(forResource: "NA - Addresses", ofType: "txt")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         Ref = Database.database().reference().child("Provincial Assembly - Sindh")
-        ReadFile()
+        //ReadFile()
     }
     
     func ReadFile(){
+        let NA_File = Bundle.main.path(forResource: "PS", ofType: "txt")
+        let NA_Address_File = Bundle.main.path(forResource: "NA - Addresses", ofType: "txt")
         
         do{
             let Data1 = try String(contentsOfFile: NA_File!, encoding: String.Encoding.utf8)

@@ -14,6 +14,12 @@
 		C311D3A420E1A39500F74AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C311D3A320E1A39500F74AB1 /* Assets.xcassets */; };
 		C311D3A720E1A39500F74AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C311D3A520E1A39500F74AB1 /* LaunchScreen.storyboard */; };
 		C311D3AF20E1A39500F74AB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */; };
+		C311D3B620E1A39500F74AB1 /* National Assembly.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B020E1A39500F74AB1 /* National Assembly.txt */; };
+		C311D3B720E1A39500F74AB1 /* NA - Addresses.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B120E1A39500F74AB1 /* NA - Addresses.txt */; };
+		C311D3B820E1A39500F74AB1 /* PK.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B220E1A39500F74AB1 /* PK.txt */; };
+		C311D3B920E1A39500F74AB1 /* PS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B320E1A39500F74AB1 /* PS.txt */; };
+		C311D3BA20E1A39500F74AB1 /* PP.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B420E1A39500F74AB1 /* PP.txt */; };
+		C311D3BB20E1A39500F74AB1 /* PB.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3B520E1A39500F74AB1 /* PB.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		C311D3A620E1A39500F74AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C311D3A820E1A39500F74AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C311D3B020E1A39500F74AB1 /* National Assembly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "National Assembly.txt"; sourceTree = "<group>"; };
+		C311D3B120E1A39500F74AB1 /* NA - Addresses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NA - Addresses.txt"; sourceTree = "<group>"; };
+		C311D3B220E1A39500F74AB1 /* PK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PK.txt; sourceTree = "<group>"; };
+		C311D3B320E1A39500F74AB1 /* PS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS.txt; sourceTree = "<group>"; };
+		C311D3B420E1A39500F74AB1 /* PP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PP.txt; sourceTree = "<group>"; };
+		C311D3B520E1A39500F74AB1 /* PB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PB.txt; sourceTree = "<group>"; };
 		D0C442F6D899FA9DA2E53026 /* Pods-Election App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Election App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Election App/Pods-Election App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +99,22 @@
 				C311D3A520E1A39500F74AB1 /* LaunchScreen.storyboard */,
 				C311D3A820E1A39500F74AB1 /* Info.plist */,
 				C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */,
+				C311D3BC20E1A39500F74AB1 /* Files */,
 			);
 			path = "Election App";
+			sourceTree = "<group>";
+		};
+		C311D3BC20E1A39500F74AB1 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C311D3B120E1A39500F74AB1 /* NA - Addresses.txt */,
+				C311D3B020E1A39500F74AB1 /* National Assembly.txt */,
+				C311D3B520E1A39500F74AB1 /* PB.txt */,
+				C311D3B220E1A39500F74AB1 /* PK.txt */,
+				C311D3B420E1A39500F74AB1 /* PP.txt */,
+				C311D3B320E1A39500F74AB1 /* PS.txt */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +178,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C311D3BB20E1A39500F74AB1 /* PB.txt in Resources */,
+				C311D3BA20E1A39500F74AB1 /* PP.txt in Resources */,
 				C311D3A720E1A39500F74AB1 /* LaunchScreen.storyboard in Resources */,
 				C311D3AF20E1A39500F74AB1 /* GoogleService-Info.plist in Resources */,
+				C311D3B720E1A39500F74AB1 /* NA - Addresses.txt in Resources */,
+				C311D3B620E1A39500F74AB1 /* National Assembly.txt in Resources */,
 				C311D3A420E1A39500F74AB1 /* Assets.xcassets in Resources */,
+				C311D3B820E1A39500F74AB1 /* PK.txt in Resources */,
 				C311D3A220E1A39500F74AB1 /* Main.storyboard in Resources */,
+				C311D3B920E1A39500F74AB1 /* PS.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

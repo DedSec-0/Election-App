@@ -1,0 +1,517 @@
+PS-1
+MUHAMMAD SALEEM RAJPUT
+Muttahida Qaumi Movement Pakistan
+25399
+PS-2
+Sayed Nasir Hussain Shah
+Pakistan Peoples Party Parliamentarians
+35387
+PS-3
+Ikramullah Khan Dharejo
+Pakistan Peoples Party Parliamentarians
+26348
+PS-4
+Syed Awais Qadir Shah
+Pakistan Peoples Party Parliamentarians
+45318
+PS-5
+Jam Mehtab Hussain Dahar
+Pakistan Peoples Party Parliamentarians
+34158
+PS-6
+Ali Nawaz Khan Mahar
+Pakistan Peoples Party Parliamentarians
+53989
+PS-7
+Ahmed Ali Khan Pitafi
+Pakistan Peoples Party Parliamentarians
+40824
+PS-8
+Sardar Muhammad Bakhsh Khan Mahar
+Pakistan Peoples Party Parliamentarians
+61714
+PS-9
+AGHA SIRAJ KHAN DURANI
+Pakistan Peoples Party Parliamentarians
+32993
+PS-10	
+MUHAMMAD SHAHARYAR KHAN MAHAR
+Pakistan Muslim League (F)
+47690
+PS-11	
+IMTIAZ AHMED SHAIKH
+Pakistan Muslim League (F)
+35010
+PS-12	
+Terminated
+ALLAH DINO KHAN BHAYO
+Pakistan Peoples Party Parliamentarians
+32374
+PS-13	
+Mir Mumtaz Hussain Khan
+Pakistan Peoples Party Parliamentarians
+20487
+PS-14	
+Withheld
+MUHAMMAD ASLAM ABRO
+Pakistan Muslim League (N)
+15757
+PS-15	
+Dr Suhrab Khan Sarki
+Pakistan Peoples Party Parliamentarians
+33504
+PS-16	
+Mir Hazar Khan Bijarani
+Pakistan Peoples Party Parliamentarians
+25150
+PS-17	
+Sardar Ghulam Abid Khan
+Pakistan Peoples Party Parliamentarians
+20530
+PS-18	
+Haji Abdul Rauf Khan Khosa
+Pakistan Peoples Party Parliamentarians
+25933
+PS-19	
+Ghulam Rasool Khan Jatoi
+National Peoples Party
+38167
+PS-20	
+Syed Murad Ali Shah
+Pakistan Peoples Party Parliamentarians
+35190
+PS-21	
+Syed Sarfraz Hussain Shah
+Pakistan Peoples Party Parliamentarians
+30023
+PS-22	
+Withheld
+Abdul Sattar Rajper
+Pakistan Peoples Party Parliamentarians
+30124
+PS-23	
+Masroor Ahmed Khan Jatoi
+National Peoples Party
+30594
+PS-24	
+Tariq Masood Arain
+Pakistan Peoples Party Parliamentarians
+35736
+PS-25	
+Saleem Raza Jalbani
+Pakistan Peoples Party Parliamentarians
+43325
+PS-26	
+Syed Faseeh Ahmed Shah
+Pakistan Peoples Party Parliamentarians
+55536
+PS-27	
+Ghulam Qadir Chandio
+Pakistan Peoples Party Parliamentarians
+41458
+PS-28	
+Doctor Bahadur Khan Dahri
+Pakistan Peoples Party Parliamentarians
+63599
+PS-29	
+Syed Qaim Ali Shah
+Pakistan Peoples Party Parliamentarians
+44362
+PS-30	
+Muhammad Rashid Shah
+Pakistan Muslim League (F)
+48749
+PS-31	
+Dr Muhammad Rafique Banbhan
+Pakistan Muslim League (F)
+49469
+PS-32	
+Manzoor Hussian Wassan
+Pakistan Peoples Party Parliamentarians
+43428
+PS-33	
+Pir Syed Fazal Ali Shah Jeelani
+Pakistan Peoples Party Parliamentarians
+41890
+PS-34	
+Naeem Ahmed Kharal
+Pakistan Peoples Party Parliamentarians
+33964
+PS-35	
+Altaf Hussain Unar
+Pakistan Peoples Party Parliamentarians
+23624
+PS-36	
+Nisar Ahmed Khuhro
+Pakistan Peoples Party Parliamentarians
+21143
+PS-37	
+Muhammad Ali Khan Bhutto
+Pakistan Peoples Party Parliamentarians
+39128
+PS-38	
+Khurshed Ahmed Junejo
+Pakistan Peoples Party Parliamentarians
+31640
+PS-39	
+Ghulam Mujtaba Isran
+Pakistan Peoples Party Parliamentarians
+29444
+PS-40	
+Mir Nadir Ali Khan Magsi
+Pakistan Peoples Party Parliamentarians
+36917
+PS-41	
+Aziz Ahmed Jatoi
+Pakistan Peoples Party Parliamentarians
+19663
+PS-42	
+Nawab Ghaibi Sardar Khan Chandio
+Pakistan Peoples Party Parliamentarians
+47466
+PS-43	
+Makhdoom Jamil Zaman
+Pakistan Peoples Party Parliamentarians
+46395
+PS-44	
+Makhdoom Rafique Zaman
+Pakistan Peoples Party Parliamentarians
+44126
+PS-45	
+Muhammad Dilawar Qureshi
+Muttahida Qaumi Movement Pakistan
+58580
+PS-46	
+Muhammad Rashid Khilji
+Muttahida Qaumi Movement Pakistan
+68145
+PS-47	
+Jam Khan
+Pakistan Peoples Party Parliamentarians
+26120
+PS-48	
+Zubair Ahmed Khan
+Muttahida Qaumi Movement Pakistan
+89666
+PS-49	
+Engineer Sabir Hussain
+Muttahida Qaumi Movement Pakistan
+49578
+PS-50	
+Sharjeel Inam Memon
+Pakistan Peoples Party Parliamentarians
+35652
+PS-51	
+Syed Zia Abbas Shah
+Pakistan Peoples Party Parliamentarians
+46552
+PS-52	
+Imdad Ali Pitafi
+Pakistan Peoples Party Parliamentarians
+44169
+PS-53	
+SYED AJIAZ HUSSAIN SHAH BUKHARI
+Pakistan Peoples Party Parliamentarians
+37634
+PS-54	
+ABDUL KARIM SOOMRO
+Pakistan Peoples Party Parliamentarians
+35444
+PS-55	
+Bashir Ahmed Ahmed Halepoto
+Pakistan Peoples Party Parliamentarians
+51037
+PS-56	
+Mir Allah Bux Talpur
+Pakistan Peoples Party Parliamentarians
+35738
+PS-57	
+Hasnain Mirza
+Pakistan Peoples Party Parliamentarians
+50307
+PS-58	
+Dr Sikander Mandhro
+Pakistan Peoples Party Parliamentarians
+34411
+PS-59	
+Muhammad Nawaz Chandio
+Pakistan Peoples Party Parliamentarians
+38315
+PS-60	
+Arbab Ghulam Rahim
+Pakistan Muslim League
+53437
+PS-61	
+Mahesh Kumar Malani
+Pakistan Peoples Party Parliamentarians
+42137
+PS-62	
+Makhdoom Khalil u Zaman
+Pakistan Peoples Party Parliamentarians
+36859
+PS-63	
+Dost Muhammad Rahimoon
+Pakistan Peoples Party Parliamentarians
+29072
+PS-65	
+ALI NAWAZ SHAH
+Pakistan Peoples Party Parliamentarians
+61395
+PS-66	
+Mir Haji Mohammad Hayat Khan Talpur
+Pakistan Peoples Party Parliamentarians
+43016
+PS-67	
+Jameel Ahmed Bhurguri
+Pakistan Peoples Party Parliamentarians
+49222
+PS-68	
+Muhammad Taimur Talpur
+Pakistan Peoples Party Parliamentarians
+41595
+PS-69	
+SYED SARDAR ALI SHAH
+Pakistan Peoples Party Parliamentarians
+35069
+PS-70	
+Syed Ali Mardan Shah
+Pakistan Peoples Party Parliamentarians
+44934
+PS-71	
+Sikandar Ali Shoro
+Pakistan Peoples Party Parliamentarians
+43778
+PS-72	
+Faqirdad Khoso
+Pakistan Peoples Party Parliamentarians
+42398
+PS-73	
+Syed Abdul Nabi Shah
+Independent
+49394
+PS-74	
+Pir Mujeeb ul Haque
+Pakistan Peoples Party Parliamentarians
+29555
+PS-75	
+SYED GHULAM SHAH JEELANI
+Pakistan Peoples Party Parliamentarians
+34771
+PS-76	
+Mr. Parveen Aziz Junejo
+Pakistan Peoples Party Parliamentarians
+56938
+PS-77	
+Mr. Fayaz Ali Butt
+Pakistan Peoples Party Parliamentarians
+40852
+PS-78	
+Saeed Khan Nizamani
+Pakistan Muslim League (F)
+46929
+PS-79	
+WARYAM FAQEER
+Pakistan Muslim League (F)
+52627
+PS-80	
+Haji Khuda Bux Rajar
+Pakistan Muslim League (F)
+50351
+PS-81	
+Terminated
+MUHAMMAD KHAN JUNEJO
+Pakistan Peoples Party Parliamentarians
+35452
+PS-82	
+Faraz
+Pakistan Peoples Party Parliamentarians
+45180
+PS-83	
+Shahid Taheem
+Pakistan Peoples Party Parliamentarians
+36332
+PS-84	
+Syed Aijaz Ali Shah Sheerazi
+Independent
+41805
+PS-85	
+Syed Amir Hyder Shah Sheerazi
+Independent
+20050
+PS-86	
+Syed Shah Hussain Shah Sheerazi
+Independent
+41675
+PS-87	
+Muhammad Ali Malkani
+Independent
+43783
+PS-88	
+Owais Muzaffar
+Pakistan Peoples Party Parliamentarians
+28593
+PS-89	
+Humayon Mohammad Khan
+Pakistan Muslim League (N)
+19826
+PS-90	
+Mohammad Yousuf Shahwani
+Muttahida Qaumi Movement Pakistan
+32851
+PS-91	
+KAMRAN AKHTAR
+Muttahida Qaumi Movement Pakistan
+51356
+PS-92	
+Abdul Haseeb
+Muttahida Qaumi Movement Pakistan
+37777
+PS-93	
+Syed Hafeezuddin
+Pakistan Tehreek-e-Insaf
+15432
+PS-94	
+Saifuddin Khalid
+Muttahida Qaumi Movement Pakistan
+85445
+PS-96	
+Muzahair Ameer Khan
+Muttahida Qaumi Movement Pakistan
+59078
+PS-97	
+SHEIKH ABDULLAH
+Muttahida Qaumi Movement Pakistan
+77964
+PS-98	
+Waseem Qureshi
+Muttahida Qaumi Movement Pakistan
+86049
+PS-99	
+Khawaja Izhar ul Hassan
+Muttahida Qaumi Movement Pakistan
+86033
+PS-100	
+Muhammad Aadil Siddiqui
+Muttahida Qaumi Movement Pakistan
+78785
+PS-101	
+Jamal Ahmed
+Muttahida Qaumi Movement Pakistan
+46174
+PS-102	
+SYED ANWER RAZA NAQVI
+Muttahida Qaumi Movement Pakistan
+63291
+PS-103	
+Terminated
+MUHAMMAD SAJID QURESHI
+Muttahida Qaumi Movement Pakistan
+40613
+PS-104	
+Rehan Zafar
+Muttahida Qaumi Movement Pakistan
+63609
+PS-105	
+Khalid Bin Vilayat
+Muttahida Qaumi Movement Pakistan
+71353
+PS-106	
+Muhammad Iftikhar Alam
+Muttahida Qaumi Movement Pakistan
+75472
+PS-107	
+Muhammad Azeem Farooqi
+Muttahida Qaumi Movement Pakistan
+71625
+PS-108	
+Muhammad Jawaid
+Pakistan Peoples Party Parliamentarians
+31335
+PS-109	
+SANIYA
+Pakistan Peoples Party Parliamentarians
+53926
+PS-110	
+Muhammad Dilawar
+Muttahida Qaumi Movement Pakistan
+46663
+PS-111	
+Muhammad Kamran
+Muttahida Qaumi Movement Pakistan
+59838
+PS-112	
+Khuram Sher Zaman
+Pakistan Tehreek-e-Insaf
+33464
+PS-113	
+Samar Ali Khan
+Pakistan Tehreek-e-Insaf
+38042
+PS-114	
+Irfanullah Khan Marwat
+Pakistan Muslim League (N)
+37130
+PS-115	
+Dr Arshad Abdullah Vohra
+Muttahida Qaumi Movement Pakistan
+55804
+PS-116	
+MEHMOOD ABDUL RAZZAQUE
+Muttahida Qaumi Movement Pakistan
+47286
+PS-117	
+Dr Sagheer Ahmed
+Muttahida Qaumi Movement Pakistan
+43924
+PS-118	
+ADNAN AHMED
+Muttahida Qaumi Movement Pakistan
+56145
+PS-119	
+Irtaza Khalil Farooqui
+Muttahida Qaumi Movement Pakistan
+50649
+PS-120	
+Nishat Muhammad Zia Qadri
+Muttahida Qaumi Movement Pakistan
+89953
+PS-121	
+Syed Nadeem Razi
+Muttahida Qaumi Movement Pakistan
+71171
+PS-122	
+Syed Khalid Ahmed
+Muttahida Qaumi Movement Pakistan
+65122
+PS-123	
+Sheeraz Waheed
+Muttahida Qaumi Movement Pakistan
+88625
+PS-124	
+Syed Sardar Ahmed
+Muttahida Qaumi Movement Pakistan
+96500
+PS-125	
+Muhammad Moeen Amir Pirzada
+Muttahida Qaumi Movement Pakistan
+64502
+PS-126	
+Syed Faisal Ali Subzwari
+Muttahida Qaumi Movement Pakistan
+48857
+PS-127	
+Ashfaque Ahmed Mangi
+Muttahida Qaumi Movement Pakistan
+59811
+PS-128	
+Waqar Hussain Shah
+Muttahida Qaumi Movement Pakistan
+23827
+PS-129	
+Shafi Muhammad Jamot
+Pakistan Muslim League (N)
+22994
+PS-130	
+Muhammad Sajid Jokhio
+Pakistan Peoples Party Parliamentarians
+22452

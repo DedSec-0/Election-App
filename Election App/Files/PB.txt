@@ -1,0 +1,202 @@
+PB-1
+Tahir Mehmood Khan
+Pakistan Muslim League (N)
+6161
+PB-2
+Syed Muhammad Raza
+Majlis-e-Wahdat-e-Muslimeen Pakistan
+7980
+PB-3
+Nawab Muhammad Ayaz Khan Jogzai
+Pashtoonkhwa Milli Awami Party
+10999
+PB-4
+Raza Muhammad Barrech
+Pashtoonkhwa Milli Awami Party
+5345
+PB-5
+Nasrullah Khan Zaray
+Pashtoonkhwa Milli Awami Party
+8530
+PB-6	
+Manzoor Ahmed Khan Kakar
+Pashtoonkhwa Milli Awami Party
+18062
+PB-7
+Gul Muhammad Khan Dumar
+Jamiat Ulama-e-Islam (F)
+11521
+PB-8
+Agha Syed Liaqat Ali
+Pashtoonkhwa Milli Awami Party
+13741
+PB-9	
+Abdul Malik
+Jamiat Ulama-e-Islam (F)
+15818
+PB-10	
+Sardar Ghulam Mutafa Khan Tareen
+Pashtoonkhwa Milli Awami Party
+17832
+PB-11	
+Dr Hamid Khan Achakzai
+Pashtoonkhwa Milli Awami Party
+8376
+PB-12	
+Zmarak Khan
+Awami National Party
+7728
+PB-13	
+Abdul Majeed Khan Achakzai
+Pashtoonkhwa Milli Awami Party
+16716
+PB-14	
+Sardar Dur Mohammad Nasar
+Pakistan Muslim League (N)
+6544
+PB-15	
+MAAZULLAH MUSAKHEL
+Jamiat Ulama-e-Islam (F)
+8451
+PB-16	
+Obaidullah Jan alias Babat
+Pashtoonkhwa Milli Awami Party
+9018
+PB-17	
+Sardar Abdul Rehman Khetran
+Jamiat Ulama-e-Islam (F)
+16941
+PB-18	
+Gulab Khan
+Jamiat Ulama-e-Islam (F)
+5959
+PB-19	
+Jaffar Khan Mandokhail
+Pakistan Muslim League
+5591
+PB-20	
+Molana Abdul Wasay
+Jamiat Ulama-e-Islam (F)
+18297
+PB-21	
+Mir Sarfaraz Chakar
+Independent
+21926
+PB-22	
+Abdul Raheem Ziaratwal Advocate
+Pashtoonkhwa Milli Awami Party
+4533
+PB-23	
+Nawabzada Jangez Khan Marri
+Pakistan Muslim League (N)
+5087
+PB-24	
+SARFARAZ AHMED BUGTI
+Independent
+10013
+PB-25	
+Mir Jan Muhammad Khan Jamali
+Pakistan Muslim League (N)
+11830
+PB-26	
+Rahat Jamali
+Pakistan Muslim League (N)
+12528
+PB-27	
+Mir Izhar Hussain Khoso
+Pakistan Muslim League (N)
+9681
+PB-28	
+Mir Abdul Majid Abro
+Jamote Qaumi Movement
+7783
+PB-29	
+Terminated
+Mir Abdul Ghafoor Lehri
+Pakistan Muslim League (N)
+10914
+PB-30	
+Meer Mohammad Asim Kurd Geelo
+Pakistan Muslim League
+9329
+PB-31	
+Mir Aamir Khan Rind
+Independent
+26775
+PB-33	
+Sardar Sanaullah Zehri
+Pakistan Muslim League (N)
+9431
+PB-34	
+Sardar Mohammad Aslam Bezinjo
+National Party
+13735
+PB-35	
+Mohammad Akhtar Mengal
+Balochistan National Party
+16751
+PB-36	
+Mir Khalid Hamayoon
+National Party
+7731
+PB-37	
+Mir Zafarullah Khan Zehri
+Independent
+5229
+PB-38	
+Nawab Mohammad Khan Shahwani
+National Party
+12618
+PB-39	
+Amanullah
+Pakistan Muslim League
+13376
+PB-40	
+Withheld
+Mohammad Rahim
+Independent
+5080
+PB-41	
+Mir Abdul Qudoos Bezinjo
+Pakistan Muslim League
+544
+PB-42	
+Rahmat Ali
+National Party
+2073
+PB-43	
+Haji Muhammad Islam
+National Party
+4369
+PB-44	
+Jam Kamal Khan
+Independent
+35184
+PB-45	
+Mohammad Saleh Bhootani
+Independent
+25752
+PB-46	
+Abdul Kareem Nosherwani
+Pakistan Muslim League
+3413
+PB-47	
+Mir Mujeeb Ul Rehman Mohammad Hassani
+Independent
+4811
+PB-48	
+Abdul Malik
+National Party
+4539
+PB-49	
+Muhammed Azeem
+National Party
+3472
+PB-50	
+Akber Askaani
+Pakistan Muslim League (N)
+1385
+PB-51	
+Mir Hammal
+Balochistan National Party
+13944

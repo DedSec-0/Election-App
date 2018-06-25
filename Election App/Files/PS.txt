@@ -43,7 +43,6 @@ IMTIAZ AHMED SHAIKH
 Pakistan Muslim League (F)
 35010
 PS-12
-Terminated
 ALLAH DINO KHAN BHAYO
 Pakistan Peoples Party Parliamentarians
 32374
@@ -52,7 +51,6 @@ Mir Mumtaz Hussain Khan
 Pakistan Peoples Party Parliamentarians
 20487
 PS-14
-Withheld
 MUHAMMAD ASLAM ABRO
 Pakistan Muslim League (N)
 15757
@@ -85,7 +83,6 @@ Syed Sarfraz Hussain Shah
 Pakistan Peoples Party Parliamentarians
 30023
 PS-22
-Withheld
 Abdul Sattar Rajper
 Pakistan Peoples Party Parliamentarians
 30124
@@ -318,7 +315,6 @@ Haji Khuda Bux Rajar
 Pakistan Muslim League (F)
 50351
 PS-81
-Terminated
 MUHAMMAD KHAN JUNEJO
 Pakistan Peoples Party Parliamentarians
 35452
@@ -403,7 +399,6 @@ SYED ANWER RAZA NAQVI
 Muttahida Qaumi Movement Pakistan
 63291
 PS-103
-Terminated
 MUHAMMAD SAJID QURESHI
 Muttahida Qaumi Movement Pakistan
 40613

@@ -12,12 +12,17 @@ import FirebaseDatabase
 class ViewController: UIViewController {
 
     var Ref : DatabaseReference?
-    let NA_File = Bundle.main.path(forResource: "National Assembly", ofType: "txt")
+    let NA_File = Bundle.main.path(forResource: "PS", ofType: "txt")
     let NA_Address_File = Bundle.main.path(forResource: "NA - Addresses", ofType: "txt")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Ref = Database.database().reference().child("National Assembly")
+        
+        Ref = Database.database().reference().child("Provincial Assembly - Sindh")
+        ReadFile()
+    }
+    
+    func ReadFile(){
         
         do{
             let Data1 = try String(contentsOfFile: NA_File!, encoding: String.Encoding.utf8)
@@ -26,8 +31,6 @@ class ViewController: UIViewController {
             let RawData2 = Data2.components(separatedBy: "\r\n")
             
             AddData(Data1: RawData1, Data2: RawData2)
-            
-            print(RawData1)
         }
         catch let error as NSError {
             print(error)
@@ -39,15 +42,15 @@ class ViewController: UIViewController {
         var j : Int = 0
         
         while i < Data1.count - 1 {
-            let key = Ref?.childByAutoId().key
-            let Data = ["PStation" : Data1[i],
+            let key = Ref?.child(String(j + 1)).key
+            let Data = ["Polling Station" : Data1[i],
                         "Candidate" : Data1[i + 1],
                         "Party Name" : Data1[i + 2],
                         "Votes" : Data1[i + 3],
-                        "Coordinates" : Data2[j],
-                        "Key" : key]
+                        "Coordinates" : Data2[j]]
             
             Ref?.child(key!).setValue(Data)
+            print(i)
             i += 4
             j += 1
         }

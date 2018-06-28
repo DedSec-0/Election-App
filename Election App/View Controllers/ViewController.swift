@@ -11,11 +11,11 @@ import FirebaseDatabase
 import GoogleMaps
 
 struct PollingData {
-    var StNo : Int
+    var StNo : String
     var Candidate : String
-    var Votes : Int
+    var Votes : String
     var PartyName : String
-    var Coordinates : [String : Double]
+    var Coordinates : [String]
 }
 
 class ViewController: UIViewController {
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
     
     func ReadDatabase(){
-        let Assemblies = ["National Assembly", "Provincial Assembly - Balouchistan", "Provincial Assembly - KPK", "Provincial Assembly - Punjab", "Provincial Assembly - Sindh"]
+        let Assemblies = [ "Provincial Assembly - Balouchistan", "National Assembly", "Provincial Assembly - KPK", "Provincial Assembly - Punjab", "Provincial Assembly - Sindh"]
         
         for i in 0..<Assemblies.count {
             var TempData = [PollingData]()
@@ -47,20 +47,21 @@ class ViewController: UIViewController {
                 if snapshot.childrenCount > 0 {
                     for St in snapshot.children.allObjects as! [DataSnapshot] {
                         let Obj = St.value as? [String : AnyObject]
-                        let StNo = Obj?["StNo"] as! Int
+                        let StNo = Obj?["Polling Station"] as! String
                         let Candidate = Obj?["Candidate"] as! String
-                        let Votes = Obj?["Votes"] as! Int
-                        let PartyName = Obj?["PartyName"] as! String
-                        let Cr = Obj?["Coordinate"] as! String
+                        let Votes = Obj?["Votes"] as! String
+                        let PartyName = Obj?["Party Name"] as! String
+                        let Cr = Obj?["Coordinates"] as! String
                         let Coordinates = Cr.components(separatedBy: ",")
-                        let Cordinates2D = ["Latitude" : Double(Coordinates[0])!, "Longitude" : Double(Coordinates[1])!]
-                        let myObj = PollingData(StNo: StNo, Candidate: Candidate, Votes: Votes, PartyName: PartyName, Coordinates: Cordinates2D)
+                        let myObj = PollingData(StNo: StNo, Candidate: Candidate, Votes: Votes, PartyName: PartyName, Coordinates: Coordinates)
                         
                         TempData.append(myObj)
                     }
                 }
-            })
-            AssembliesData.append(TempData)
+                
+                self.AssembliesData.append(TempData)
+                print(self.AssembliesData.count)
+                })
         }
     }
     

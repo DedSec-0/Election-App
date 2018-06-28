@@ -20,6 +20,8 @@
 		C311D3D420E1A39500F74AB1 /* PS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3CE20E1A39500F74AB1 /* PS.txt */; };
 		C311D3D520E1A39500F74AB1 /* PP.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3CF20E1A39500F74AB1 /* PP.txt */; };
 		C311D3D620E1A39500F74AB1 /* PB.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3D020E1A39500F74AB1 /* PB.txt */; };
+		C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284820E3DCC200FC9119 /* DetailViewController.swift */; };
+		C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		C311D3CE20E1A39500F74AB1 /* PS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS.txt; sourceTree = "<group>"; };
 		C311D3CF20E1A39500F74AB1 /* PP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PP.txt; sourceTree = "<group>"; };
 		C311D3D020E1A39500F74AB1 /* PB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PB.txt; sourceTree = "<group>"; };
+		C3F5284820E3DCC200FC9119 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 		D0C442F6D899FA9DA2E53026 /* Pods-Election App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Election App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Election App/Pods-Election App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,14 +96,14 @@
 		C311D39B20E1A39500F74AB1 /* Election App */ = {
 			isa = PBXGroup;
 			children = (
-				C311D39C20E1A39500F74AB1 /* AppDelegate.swift */,
-				C311D39E20E1A39500F74AB1 /* ViewController.swift */,
-				C311D3A020E1A39500F74AB1 /* Main.storyboard */,
 				C311D3A320E1A39500F74AB1 /* Assets.xcassets */,
+				C311D39C20E1A39500F74AB1 /* AppDelegate.swift */,
+				C311D3A020E1A39500F74AB1 /* Main.storyboard */,
 				C311D3A520E1A39500F74AB1 /* LaunchScreen.storyboard */,
-				C311D3A820E1A39500F74AB1 /* Info.plist */,
-				C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */,
+				C3F72E1220E50A3C007D7F16 /* View Controllers */,
 				C311D3BC20E1A39500F74AB1 /* Files */,
+				C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */,
+				C311D3A820E1A39500F74AB1 /* Info.plist */,
 			);
 			path = "Election App";
 			sourceTree = "<group>";
@@ -117,6 +121,16 @@
 			path = Files;
 			sourceTree = "<group>";
 		};
+		C3F72E1220E50A3C007D7F16 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C311D39E20E1A39500F74AB1 /* ViewController.swift */,
+				C3F5284820E3DCC200FC9119 /* DetailViewController.swift */,
+				C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +143,7 @@
 				C311D39620E1A39500F74AB1 /* Frameworks */,
 				C311D39720E1A39500F74AB1 /* Resources */,
 				BC2B34FE0E234FAF3C64CC18 /* [CP] Embed Pods Frameworks */,
+				92B9C180A6D099DBEE896571 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +227,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		92B9C180A6D099DBEE896571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Election App/Pods-Election App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Election App/Pods-Election App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC2B34FE0E234FAF3C64CC18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +254,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Election App/Pods-Election App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -228,6 +262,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -243,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */,
 				C311D39F20E1A39500F74AB1 /* ViewController.swift in Sources */,
+				C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */,
 				C311D39D20E1A39500F74AB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

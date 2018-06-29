@@ -11,7 +11,6 @@
 		C311D39D20E1A39500F74AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311D39C20E1A39500F74AB1 /* AppDelegate.swift */; };
 		C311D39F20E1A39500F74AB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311D39E20E1A39500F74AB1 /* ViewController.swift */; };
 		C311D3A220E1A39500F74AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C311D3A020E1A39500F74AB1 /* Main.storyboard */; };
-		C311D3A420E1A39500F74AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C311D3A320E1A39500F74AB1 /* Assets.xcassets */; };
 		C311D3A720E1A39500F74AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C311D3A520E1A39500F74AB1 /* LaunchScreen.storyboard */; };
 		C311D3AF20E1A39500F74AB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */; };
 		C311D3D120E1A39500F74AB1 /* National Assembly.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3CB20E1A39500F74AB1 /* National Assembly.txt */; };
@@ -20,6 +19,10 @@
 		C311D3D420E1A39500F74AB1 /* PS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3CE20E1A39500F74AB1 /* PS.txt */; };
 		C311D3D520E1A39500F74AB1 /* PP.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3CF20E1A39500F74AB1 /* PP.txt */; };
 		C311D3D620E1A39500F74AB1 /* PB.txt in Resources */ = {isa = PBXBuildFile; fileRef = C311D3D020E1A39500F74AB1 /* PB.txt */; };
+		C33E315620E69F9E001331C7 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E315420E69F9E001331C7 /* GoogleDataProvider.swift */; };
+		C33E315720E69F9E001331C7 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E315520E69F9E001331C7 /* GooglePlace.swift */; };
+		C33E315920E69FE6001331C7 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E315820E69FE6001331C7 /* PlaceMarker.swift */; };
+		C33E315D20E6BFFD001331C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33E315C20E6BFFD001331C7 /* Assets.xcassets */; };
 		C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284820E3DCC200FC9119 /* DetailViewController.swift */; };
 		C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +34,6 @@
 		C311D39C20E1A39500F74AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C311D39E20E1A39500F74AB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C311D3A120E1A39500F74AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C311D3A320E1A39500F74AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C311D3A620E1A39500F74AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C311D3A820E1A39500F74AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -41,6 +43,10 @@
 		C311D3CE20E1A39500F74AB1 /* PS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS.txt; sourceTree = "<group>"; };
 		C311D3CF20E1A39500F74AB1 /* PP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PP.txt; sourceTree = "<group>"; };
 		C311D3D020E1A39500F74AB1 /* PB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PB.txt; sourceTree = "<group>"; };
+		C33E315420E69F9E001331C7 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		C33E315520E69F9E001331C7 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		C33E315820E69FE6001331C7 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceMarker.swift; path = "Election App/PlaceMarker.swift"; sourceTree = SOURCE_ROOT; };
+		C33E315C20E6BFFD001331C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F5284820E3DCC200FC9119 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 		D0C442F6D899FA9DA2E53026 /* Pods-Election App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Election App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Election App/Pods-Election App.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,12 +102,13 @@
 		C311D39B20E1A39500F74AB1 /* Election App */ = {
 			isa = PBXGroup;
 			children = (
-				C311D3A320E1A39500F74AB1 /* Assets.xcassets */,
+				C33E315C20E6BFFD001331C7 /* Assets.xcassets */,
 				C311D39C20E1A39500F74AB1 /* AppDelegate.swift */,
 				C311D3A020E1A39500F74AB1 /* Main.storyboard */,
 				C311D3A520E1A39500F74AB1 /* LaunchScreen.storyboard */,
 				C3F72E1220E50A3C007D7F16 /* View Controllers */,
 				C311D3BC20E1A39500F74AB1 /* Files */,
+				C33E315320E69F9E001331C7 /* Model */,
 				C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */,
 				C311D3A820E1A39500F74AB1 /* Info.plist */,
 			);
@@ -119,6 +126,16 @@
 				C311D3CE20E1A39500F74AB1 /* PS.txt */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		C33E315320E69F9E001331C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C33E315820E69FE6001331C7 /* PlaceMarker.swift */,
+				C33E315420E69F9E001331C7 /* GoogleDataProvider.swift */,
+				C33E315520E69F9E001331C7 /* GooglePlace.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C3F72E1220E50A3C007D7F16 /* View Controllers */ = {
@@ -197,9 +214,9 @@
 				C311D3D520E1A39500F74AB1 /* PP.txt in Resources */,
 				C311D3A720E1A39500F74AB1 /* LaunchScreen.storyboard in Resources */,
 				C311D3AF20E1A39500F74AB1 /* GoogleService-Info.plist in Resources */,
+				C33E315D20E6BFFD001331C7 /* Assets.xcassets in Resources */,
 				C311D3D220E1A39500F74AB1 /* NA - Addresses.txt in Resources */,
 				C311D3D120E1A39500F74AB1 /* National Assembly.txt in Resources */,
-				C311D3A420E1A39500F74AB1 /* Assets.xcassets in Resources */,
 				C311D3D320E1A39500F74AB1 /* PK.txt in Resources */,
 				C311D3A220E1A39500F74AB1 /* Main.storyboard in Resources */,
 				C311D3D420E1A39500F74AB1 /* PS.txt in Resources */,
@@ -278,10 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33E315620E69F9E001331C7 /* GoogleDataProvider.swift in Sources */,
 				C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */,
+				C33E315920E69FE6001331C7 /* PlaceMarker.swift in Sources */,
 				C311D39F20E1A39500F74AB1 /* ViewController.swift in Sources */,
 				C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */,
 				C311D39D20E1A39500F74AB1 /* AppDelegate.swift in Sources */,
+				C33E315720E69F9E001331C7 /* GooglePlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ struct PollingData {
     var Candidate : String
     var Votes : String
     var PartyName : String
-    var Coordinates : [String]
+    var Coordinates : CLLocationCoordinate2D
 }
 
 class ViewController: UIViewController {
@@ -24,8 +24,6 @@ class ViewController: UIViewController {
     var AssembliesData = [[PollingData]]()
     let locationManager = CLLocationManager()
     let marker = GMSMarker()
-    let markerImage = UIImage(named: "mapMarker")!.withRenderingMode(.alwaysTemplate)
-    //let markerView = UIImageView(image: markerImage)
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet private weak var mapCenterPinImage: UIImageView!
     
@@ -33,6 +31,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "Polling Stations"
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        mapView.delegate = self
         Ref = Database.database().reference()
         ReadDatabase()
         //ReadFile()
@@ -52,7 +53,11 @@ class ViewController: UIViewController {
                         let Votes = Obj?["Votes"] as! String
                         let PartyName = Obj?["Party Name"] as! String
                         let Cr = Obj?["Coordinates"] as! String
-                        let Coordinates = Cr.components(separatedBy: ",")
+                        
+                        let Coordi = Cr.components(separatedBy: ",")
+                        let latitude = NumberFormatter().number(from: Coordi[0])?.doubleValue
+                        let longitude = NumberFormatter().number(from: Coordi[1])?.doubleValue
+                        let Coordinates = CLLocationCoordinate2D(latitude: latitude!, longitude: longitude!)
                         let myObj = PollingData(StNo: StNo, Candidate: Candidate, Votes: Votes, PartyName: PartyName, Coordinates: Coordinates)
                         
                         TempData.append(myObj)
@@ -60,8 +65,19 @@ class ViewController: UIViewController {
                 }
                 
                 self.AssembliesData.append(TempData)
-                print(self.AssembliesData.count)
-                })
+                if self.AssembliesData.count >= 5 {
+                    self.markStations()
+                }
+            })
+        }
+    }
+    
+    func markStations(){
+        for i in 0..<AssembliesData[1].count {
+            let marker = PlaceMarker(place: AssembliesData[1][i].Coordinates)
+            marker.title = AssembliesData[1][i].StNo
+            marker.tracksViewChanges = true
+            marker.map = self.mapView
         }
     }
     
@@ -107,5 +123,35 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController: CLLocationManagerDelegate {
+
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status:
+        CLAuthorizationStatus) {
+        guard status == .authorizedWhenInUse else {
+            return
+        }
+
+        locationManager.startUpdatingLocation()
+        mapView.isMyLocationEnabled = true
+        mapView.settings.myLocationButton = true
+        mapView.settings.setAllGesturesEnabled(true)
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        guard let location = locations.first else {
+            return
+        }
+        mapView.camera = GMSCameraPosition(target: location.coordinate, zoom: 15, bearing: 0, viewingAngle: 0)
+        locationManager.stopUpdatingLocation()
+    }
+}
+
+extension ViewController: GMSMapViewDelegate {
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+        performSegue(withIdentifier: "Details", sender: self)
+    }
 }
 

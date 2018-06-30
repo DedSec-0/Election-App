@@ -148,7 +148,8 @@ Independent
 30524
 NA-38
 Postponed
-0
+Postponed
+Postponed
 NA-39
 Syed Ghazi Gulab Jamal
 Independent
@@ -938,7 +939,6 @@ Roshan Din Junejo
 Pakistan Peoples Party Parliamentarians
 100906
 NA-237
-Terminated
 Sadiq Ali Memon
 Pakistan Peoples Party Parliamentarians
 86746

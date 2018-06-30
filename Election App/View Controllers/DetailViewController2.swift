@@ -10,31 +10,46 @@ import UIKit
 
 class DetailViewController2: UIViewController {
 
+    var Index : Int = 0
+    var Image = UIImage()
+    
     @IBOutlet weak var NALabel: UILabel!
     @IBOutlet weak var NamelLabel: UILabel!
     @IBOutlet weak var VotesLabel: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var CoordinatesLabel: UILabel!
+    @IBOutlet weak var PartyNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        navigationItem.title = "Winner Candidate"
+        refreshView()
     }
-
+    
+    @IBAction func btnRight(_ sender: Any) {
+        Index += 1
+        refreshView()
+    }
+    @IBAction func btnLeft(_ sender: Any) {
+        Index -= 1
+        refreshView()
+    }
+    
+    func refreshView() {
+        let myCoordinates = String(describing: AssembliesData[1][Index].Coordinates.latitude) + ", " + String(describing: AssembliesData[1][Index].Coordinates.longitude)
+        
+        NALabel.text = AssembliesData[1][Index].StNo
+        NamelLabel.text = AssembliesData[1][Index].Candidate
+        VotesLabel.text = AssembliesData[1][Index].Votes
+        PartyNameLabel.text = AssembliesData[1][Index].PartyName
+        CoordinatesLabel.text = myCoordinates
+        myImageView.image = Image
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -23,7 +23,21 @@
 		C33E315720E69F9E001331C7 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E315520E69F9E001331C7 /* GooglePlace.swift */; };
 		C33E315920E69FE6001331C7 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E315820E69FE6001331C7 /* PlaceMarker.swift */; };
 		C33E315D20E6BFFD001331C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33E315C20E6BFFD001331C7 /* Assets.xcassets */; };
-		C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284820E3DCC200FC9119 /* DetailViewController.swift */; };
+		C33E683F20E80B9E002E23E6 /* PollingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E683E20E80B9E002E23E6 /* PollingData.swift */; };
+		C33E684820E815B2002E23E6 /* Pakistan Tehreek-e-Insaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684120E815B1002E23E6 /* Pakistan Tehreek-e-Insaf.jpg */; };
+		C33E684920E815B2002E23E6 /* Awami Jamhuri Ittehad Pakistan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684220E815B1002E23E6 /* Awami Jamhuri Ittehad Pakistan.jpg */; };
+		C33E684A20E815B2002E23E6 /* Pakistan Peoples Party Parliamentarians.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684320E815B1002E23E6 /* Pakistan Peoples Party Parliamentarians.jpg */; };
+		C33E684B20E815B2002E23E6 /* Pakistan Muslim League (N).jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684420E815B1002E23E6 /* Pakistan Muslim League (N).jpg */; };
+		C33E684C20E815B2002E23E6 /* Pashtoonkhwa Milli Awami Party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684520E815B1002E23E6 /* Pashtoonkhwa Milli Awami Party.jpg */; };
+		C33E684D20E815B2002E23E6 /* Pakistan Muslim League (F).jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684620E815B1002E23E6 /* Pakistan Muslim League (F).jpg */; };
+		C33E685220E81825002E23E6 /* Jamiat Ulama-e-Islam (F).jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E684F20E81825002E23E6 /* Jamiat Ulama-e-Islam (F).jpg */; };
+		C33E685320E81825002E23E6 /* Independent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E685020E81825002E23E6 /* Independent.jpg */; };
+		C33E685420E81825002E23E6 /* Muttahida Qaumi Movement Pakistan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E685120E81825002E23E6 /* Muttahida Qaumi Movement Pakistan.jpg */; };
+		C33E685720E81A56002E23E6 /* Pakistan Muslim League(Z).jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33E685520E81A56002E23E6 /* Pakistan Muslim League(Z).jpg */; };
+		C33E685820E81A56002E23E6 /* National Peoples Party.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E685620E81A56002E23E6 /* National Peoples Party.png */; };
+		C33E685A20E82CCE002E23E6 /* Awami Muslim League Pakistan.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E685920E82CCE002E23E6 /* Awami Muslim League Pakistan.png */; };
+		C33E686020E832E2002E23E6 /* buttonLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E685E20E832E2002E23E6 /* buttonLeft.png */; };
+		C33E686120E832E2002E23E6 /* buttonRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E685F20E832E2002E23E6 /* buttonRight.png */; };
 		C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +61,21 @@
 		C33E315520E69F9E001331C7 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		C33E315820E69FE6001331C7 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceMarker.swift; path = "Election App/PlaceMarker.swift"; sourceTree = SOURCE_ROOT; };
 		C33E315C20E6BFFD001331C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3F5284820E3DCC200FC9119 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C33E683E20E80B9E002E23E6 /* PollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingData.swift; sourceTree = "<group>"; };
+		C33E684120E815B1002E23E6 /* Pakistan Tehreek-e-Insaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pakistan Tehreek-e-Insaf.jpg"; sourceTree = "<group>"; };
+		C33E684220E815B1002E23E6 /* Awami Jamhuri Ittehad Pakistan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Awami Jamhuri Ittehad Pakistan.jpg"; sourceTree = "<group>"; };
+		C33E684320E815B1002E23E6 /* Pakistan Peoples Party Parliamentarians.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pakistan Peoples Party Parliamentarians.jpg"; sourceTree = "<group>"; };
+		C33E684420E815B1002E23E6 /* Pakistan Muslim League (N).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pakistan Muslim League (N).jpg"; sourceTree = "<group>"; };
+		C33E684520E815B1002E23E6 /* Pashtoonkhwa Milli Awami Party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pashtoonkhwa Milli Awami Party.jpg"; sourceTree = "<group>"; };
+		C33E684620E815B1002E23E6 /* Pakistan Muslim League (F).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pakistan Muslim League (F).jpg"; sourceTree = "<group>"; };
+		C33E684F20E81825002E23E6 /* Jamiat Ulama-e-Islam (F).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jamiat Ulama-e-Islam (F).jpg"; sourceTree = "<group>"; };
+		C33E685020E81825002E23E6 /* Independent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Independent.jpg; sourceTree = "<group>"; };
+		C33E685120E81825002E23E6 /* Muttahida Qaumi Movement Pakistan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Muttahida Qaumi Movement Pakistan.jpg"; sourceTree = "<group>"; };
+		C33E685520E81A56002E23E6 /* Pakistan Muslim League(Z).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pakistan Muslim League(Z).jpg"; sourceTree = "<group>"; };
+		C33E685620E81A56002E23E6 /* National Peoples Party.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "National Peoples Party.png"; sourceTree = "<group>"; };
+		C33E685920E82CCE002E23E6 /* Awami Muslim League Pakistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Awami Muslim League Pakistan.png"; sourceTree = "<group>"; };
+		C33E685E20E832E2002E23E6 /* buttonLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLeft.png; sourceTree = "<group>"; };
+		C33E685F20E832E2002E23E6 /* buttonRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRight.png; sourceTree = "<group>"; };
 		C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 		D0C442F6D899FA9DA2E53026 /* Pods-Election App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Election App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Election App/Pods-Election App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +137,8 @@
 				C3F72E1220E50A3C007D7F16 /* View Controllers */,
 				C311D3BC20E1A39500F74AB1 /* Files */,
 				C33E315320E69F9E001331C7 /* Model */,
+				C33E684020E815B1002E23E6 /* Image */,
+				C33E685B20E8319D002E23E6 /* UI */,
 				C311D3AE20E1A39500F74AB1 /* GoogleService-Info.plist */,
 				C311D3A820E1A39500F74AB1 /* Info.plist */,
 			);
@@ -118,12 +148,12 @@
 		C311D3BC20E1A39500F74AB1 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				C311D3CC20E1A39500F74AB1 /* NA - Addresses.txt */,
 				C311D3CB20E1A39500F74AB1 /* National Assembly.txt */,
 				C311D3D020E1A39500F74AB1 /* PB.txt */,
 				C311D3CD20E1A39500F74AB1 /* PK.txt */,
 				C311D3CF20E1A39500F74AB1 /* PP.txt */,
 				C311D3CE20E1A39500F74AB1 /* PS.txt */,
+				C311D3CC20E1A39500F74AB1 /* NA - Addresses.txt */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -134,15 +164,43 @@
 				C33E315820E69FE6001331C7 /* PlaceMarker.swift */,
 				C33E315420E69F9E001331C7 /* GoogleDataProvider.swift */,
 				C33E315520E69F9E001331C7 /* GooglePlace.swift */,
+				C33E683E20E80B9E002E23E6 /* PollingData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C33E684020E815B1002E23E6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C33E685920E82CCE002E23E6 /* Awami Muslim League Pakistan.png */,
+				C33E685520E81A56002E23E6 /* Pakistan Muslim League(Z).jpg */,
+				C33E685620E81A56002E23E6 /* National Peoples Party.png */,
+				C33E685120E81825002E23E6 /* Muttahida Qaumi Movement Pakistan.jpg */,
+				C33E684F20E81825002E23E6 /* Jamiat Ulama-e-Islam (F).jpg */,
+				C33E685020E81825002E23E6 /* Independent.jpg */,
+				C33E684120E815B1002E23E6 /* Pakistan Tehreek-e-Insaf.jpg */,
+				C33E684220E815B1002E23E6 /* Awami Jamhuri Ittehad Pakistan.jpg */,
+				C33E684320E815B1002E23E6 /* Pakistan Peoples Party Parliamentarians.jpg */,
+				C33E684420E815B1002E23E6 /* Pakistan Muslim League (N).jpg */,
+				C33E684520E815B1002E23E6 /* Pashtoonkhwa Milli Awami Party.jpg */,
+				C33E684620E815B1002E23E6 /* Pakistan Muslim League (F).jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C33E685B20E8319D002E23E6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C33E685E20E832E2002E23E6 /* buttonLeft.png */,
+				C33E685F20E832E2002E23E6 /* buttonRight.png */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		C3F72E1220E50A3C007D7F16 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C311D39E20E1A39500F74AB1 /* ViewController.swift */,
-				C3F5284820E3DCC200FC9119 /* DetailViewController.swift */,
 				C3F5284A20E3DCD600FC9119 /* DetailViewController2.swift */,
 			);
 			path = "View Controllers";
@@ -212,13 +270,27 @@
 			files = (
 				C311D3D620E1A39500F74AB1 /* PB.txt in Resources */,
 				C311D3D520E1A39500F74AB1 /* PP.txt in Resources */,
+				C33E685720E81A56002E23E6 /* Pakistan Muslim League(Z).jpg in Resources */,
+				C33E684920E815B2002E23E6 /* Awami Jamhuri Ittehad Pakistan.jpg in Resources */,
+				C33E686120E832E2002E23E6 /* buttonRight.png in Resources */,
+				C33E684B20E815B2002E23E6 /* Pakistan Muslim League (N).jpg in Resources */,
+				C33E684D20E815B2002E23E6 /* Pakistan Muslim League (F).jpg in Resources */,
+				C33E685A20E82CCE002E23E6 /* Awami Muslim League Pakistan.png in Resources */,
 				C311D3A720E1A39500F74AB1 /* LaunchScreen.storyboard in Resources */,
 				C311D3AF20E1A39500F74AB1 /* GoogleService-Info.plist in Resources */,
+				C33E685320E81825002E23E6 /* Independent.jpg in Resources */,
 				C33E315D20E6BFFD001331C7 /* Assets.xcassets in Resources */,
 				C311D3D220E1A39500F74AB1 /* NA - Addresses.txt in Resources */,
+				C33E684A20E815B2002E23E6 /* Pakistan Peoples Party Parliamentarians.jpg in Resources */,
+				C33E685420E81825002E23E6 /* Muttahida Qaumi Movement Pakistan.jpg in Resources */,
+				C33E685220E81825002E23E6 /* Jamiat Ulama-e-Islam (F).jpg in Resources */,
 				C311D3D120E1A39500F74AB1 /* National Assembly.txt in Resources */,
+				C33E684C20E815B2002E23E6 /* Pashtoonkhwa Milli Awami Party.jpg in Resources */,
+				C33E684820E815B2002E23E6 /* Pakistan Tehreek-e-Insaf.jpg in Resources */,
+				C33E685820E81A56002E23E6 /* National Peoples Party.png in Resources */,
 				C311D3D320E1A39500F74AB1 /* PK.txt in Resources */,
 				C311D3A220E1A39500F74AB1 /* Main.storyboard in Resources */,
+				C33E686020E832E2002E23E6 /* buttonLeft.png in Resources */,
 				C311D3D420E1A39500F74AB1 /* PS.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,8 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33E315620E69F9E001331C7 /* GoogleDataProvider.swift in Sources */,
-				C3F5284920E3DCC200FC9119 /* DetailViewController.swift in Sources */,
 				C33E315920E69FE6001331C7 /* PlaceMarker.swift in Sources */,
+				C33E683F20E80B9E002E23E6 /* PollingData.swift in Sources */,
 				C311D39F20E1A39500F74AB1 /* ViewController.swift in Sources */,
 				C3F5284B20E3DCD600FC9119 /* DetailViewController2.swift in Sources */,
 				C311D39D20E1A39500F74AB1 /* AppDelegate.swift in Sources */,

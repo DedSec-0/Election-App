@@ -10,19 +10,13 @@ import UIKit
 import FirebaseDatabase
 import GoogleMaps
 
-struct PollingData {
-    var StNo : String
-    var Candidate : String
-    var Votes : String
-    var PartyName : String
-    var Coordinates : CLLocationCoordinate2D
-}
+var AssembliesData = [[PollingData]]()
 
 class ViewController: UIViewController {
 
     var Ref : DatabaseReference?
-    var AssembliesData = [[PollingData]]()
     let locationManager = CLLocationManager()
+    var markerTapped : Int = 0
     let marker = GMSMarker()
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet private weak var mapCenterPinImage: UIImageView!
@@ -39,8 +33,20 @@ class ViewController: UIViewController {
         //ReadFile()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            
+            let Target = segue.destination as! DetailViewController2
+            Target.Index = markerTapped
+            Target.Image = UIImage(named: AssembliesData[1][markerTapped].PartyName + ".jpg")!
+        }
+    }
+    
     func ReadDatabase(){
-        let Assemblies = [ "Provincial Assembly - Balouchistan", "National Assembly", "Provincial Assembly - KPK", "Provincial Assembly - Punjab", "Provincial Assembly - Sindh"]
+        let Assemblies = [ "Provincial Assembly - Balouchistan",
+                           "National Assembly", "Provincial Assembly - KPK",
+                           "Provincial Assembly - Punjab",
+                           "Provincial Assembly - Sindh"]
         
         for i in 0..<Assemblies.count {
             var TempData = [PollingData]()
@@ -64,8 +70,8 @@ class ViewController: UIViewController {
                     }
                 }
                 
-                self.AssembliesData.append(TempData)
-                if self.AssembliesData.count >= 5 {
+                AssembliesData.append(TempData)
+                if AssembliesData.count >= 5 {
                     self.markStations()
                 }
             })
@@ -82,7 +88,7 @@ class ViewController: UIViewController {
     }
     
     func ReadFile(){
-        let NA_File = Bundle.main.path(forResource: "PS", ofType: "txt")
+        let NA_File = Bundle.main.path(forResource: "National Assembly", ofType: "txt")
         let NA_Address_File = Bundle.main.path(forResource: "NA - Addresses", ofType: "txt")
         
         do{
@@ -103,14 +109,14 @@ class ViewController: UIViewController {
         var j : Int = 0
         
         while i < Data1.count - 1 {
-            let key = Ref?.child(String(j + 1)).key
+            let key = Ref?.child("National Assembly").child(String(j + 1)).key
             let Data = ["Polling Station" : Data1[i],
                         "Candidate" : Data1[i + 1],
                         "Party Name" : Data1[i + 2],
                         "Votes" : Data1[i + 3],
                         "Coordinates" : Data2[j]]
             
-            Ref?.child(key!).setValue(Data)
+            Ref?.child("National Assembly").child(key!).setValue(Data)
             print(i)
             i += 4
             j += 1
@@ -151,7 +157,10 @@ extension ViewController: CLLocationManagerDelegate {
 
 extension ViewController: GMSMapViewDelegate {
     func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
-        performSegue(withIdentifier: "Details", sender: self)
+        let values = marker.title!.components(separatedBy: "-")
+        markerTapped = (NumberFormatter().number(from: values[1])?.intValue)! - 1
+        
+        performSegue(withIdentifier: "showDetail", sender: self)
     }
 }
 

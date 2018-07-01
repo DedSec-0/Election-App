@@ -11,7 +11,6 @@ import UIKit
 class DetailViewController2: UIViewController {
 
     var Index : Int = 0
-    var Image = UIImage()
     
     @IBOutlet weak var NALabel: UILabel!
     @IBOutlet weak var NamelLabel: UILabel!
@@ -28,10 +27,17 @@ class DetailViewController2: UIViewController {
     }
     
     @IBAction func btnRight(_ sender: Any) {
+        if (Index == 258){
+            return
+        }
         Index += 1
         refreshView()
+        
     }
     @IBAction func btnLeft(_ sender: Any) {
+        if (Index == 0){
+            return
+        }
         Index -= 1
         refreshView()
     }
@@ -44,7 +50,7 @@ class DetailViewController2: UIViewController {
         VotesLabel.text = AssembliesData[1][Index].Votes
         PartyNameLabel.text = AssembliesData[1][Index].PartyName
         CoordinatesLabel.text = myCoordinates
-        myImageView.image = Image
+        myImageView.image = UIImage(named: AssembliesData[1][Index].PartyName + ".jpg")!
     }
     
     override func didReceiveMemoryWarning() {

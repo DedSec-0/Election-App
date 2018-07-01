@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D8u-r2-74o">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SVW-Kt-GMO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -32,7 +34,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yiT-As-wl5"/>
+                    <navigationItem key="navigationItem" id="yiT-As-wl5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="WZw-HD-PF0">
+                            <connections>
+                                <action selector="DoneBtn:" destination="BYZ-38-t0r" id="Hyk-i0-M2R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="eYa-vz-Yc5" id="wpd-Gz-sao"/>
                         <segue destination="EC6-8k-LCz" kind="show" identifier="showDetail" id="39G-0v-RaF"/>
@@ -63,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dtz-t5-RNK">
-                                <rect key="frame" x="0.0" y="295" width="375" height="55"/>
+                                <rect key="frame" x="0.0" y="294" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -71,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Candidate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDP-Su-vtQ">
-                                <rect key="frame" x="0.0" y="238" width="375" height="55"/>
+                                <rect key="frame" x="0.0" y="237" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -79,14 +87,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coordinates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPt-uG-sdJ">
-                                <rect key="frame" x="0.0" y="409" width="375" height="55"/>
+                                <rect key="frame" x="0.0" y="408" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Party Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpe-WI-hQG">
-                                <rect key="frame" x="0.0" y="352" width="375" height="55"/>
+                                <rect key="frame" x="0.0" y="351" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -109,7 +117,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.45349678998892251" green="0.72917341321243523" blue="0.40413695732716948" alpha="0.48938160211267606" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VGo-I7-0D7"/>
                     </view>
                     <connections>
@@ -123,7 +131,76 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ODe-DB-pVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416.8" y="124.58770614692655"/>
+            <point key="canvasLocation" x="-434" y="986"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="v8N-gA-6ue">
+            <objects>
+                <viewController id="SVW-Kt-GMO" customClass="MainViewController" customModule="Election_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zBm-Wb-3iO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FrontBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="OHG-Tq-iEj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="712"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OHG-Tq-iEj" secondAttribute="height" multiplier="15:8" id="9Is-2j-67h"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elG-I9-V52">
+                                <rect key="frame" x="34" y="439" width="110" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20763073871751106" green="0.8052747201288909" blue="0.92882484197616577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Show Map">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="D8u-r2-74o" kind="presentation" id="GJw-mr-bil">
+                                        <segue key="commit" inheritsFrom="parent" id="8Nn-EG-dbP"/>
+                                        <segue key="preview" inheritsFrom="commit" id="hZd-Ts-fCE"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search by station number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QcX-1t-AS4">
+                                <rect key="frame" x="34" y="379" width="307" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtg-sl-XXV">
+                                <rect key="frame" x="231" y="439" width="110" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20763073870000001" green="0.80527472010000001" blue="0.92882484200000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EC6-8k-LCz" kind="showDetail" identifier="SearchedDetails" id="SPW-dz-foZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OHG-Tq-iEj" firstAttribute="top" secondItem="BzG-gd-Wx8" secondAttribute="top" id="0i8-o4-Zc8"/>
+                            <constraint firstItem="OHG-Tq-iEj" firstAttribute="leading" secondItem="BzG-gd-Wx8" secondAttribute="leading" id="Jx5-lK-jvo"/>
+                            <constraint firstItem="BzG-gd-Wx8" firstAttribute="bottom" secondItem="OHG-Tq-iEj" secondAttribute="bottom" id="xrq-px-QO4"/>
+                            <constraint firstItem="BzG-gd-Wx8" firstAttribute="trailing" secondItem="OHG-Tq-iEj" secondAttribute="trailing" id="zQf-Qy-dYj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BzG-gd-Wx8"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapBtn" destination="elG-I9-V52" id="gcd-qG-Ckx"/>
+                        <outlet property="searchBtn" destination="mtg-sl-XXV" id="jvw-jl-4Pw"/>
+                        <outlet property="textToSearch" destination="QcX-1t-AS4" id="2Rv-yO-nf4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KQV-l1-ddI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1373.5999999999999" y="117.39130434782609"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jxy-dD-cS9">
@@ -145,8 +222,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="FrontBG.png" width="417" height="712"/>
         <image name="Pakistan Tehreek-e-Insaf.jpg" width="282" height="179"/>
         <image name="buttonLeft.png" width="300" height="300"/>
         <image name="buttonRight.png" width="300" height="300"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="GJw-mr-bil"/>
+        <segue reference="39G-0v-RaF"/>
+    </inferredMetricsTieBreakers>
 </document>
